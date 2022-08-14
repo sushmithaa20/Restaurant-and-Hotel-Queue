@@ -1,0 +1,440 @@
+/*
+    Author:Rishja;
+    Theme:Food Reservation Website Admin;
+    Version:0.1;
+
+*/
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+.clearfix{
+    float:none;
+    clear:both;
+}
+
+.tbl-full{
+    width:100%;
+}
+
+.tbl-30{
+    width:30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.btn-secondary:hover{
+    background-color: transparent;
+}
+
+.btn-danger{
+    background-color: red;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.btn-danger:hover{
+    background-color: transparent;
+}
+
+.success{
+    color:green;
+}
+
+.error{
+    color:red;
+}
+/*css for menu section*/
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover{
+    color:#ff4757 ;
+}
+
+
+
+/*css for main content*/
+.main-content{
+    margin:1% 0;
+    background-color: gainsboro;
+    padding:3% 0;
+}
+
+.col-4{
+    width:18%;
+    background-color: white;
+    margin:1%;
+    padding: 20px;
+    float:left;
+
+}
+
+
+/*css for footer*/
+.footer{
+    background-color: #ff4757;
+    color: whitesmoke;
+}
+
+/*css for login*/
+.login{
+    background-image: url(../images/image.jpg);
+    width:20%;
+    margin:10% auto;
+    padding:2%;
+    background-color: lightblue;
+}
+
+.font{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.loginfont{
+    color:gold;
+    font-style: oblique;
+}
+.body{
+    background-color: #000116;
+    /* background-image: url(../images/plain.jpg); */
+}
+
+.space{
+    padding: 2%;
+}
+
+
+/* footer section */
+
+textarea {
+    resize: none;
+  }
+  
+  .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+  }
+  
+  
+  
+  .svg-inline--fa {
+  vertical-align: -0.200em;
+  }
+  
+  .rounded-social-buttons {
+  text-align: center;
+  background-color: rgb(207, 155, 124);
+  }
+  
+  .rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 50px;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+  margin-top: 10px;
+  
+  
+  }
+  
+  .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+  }
+  
+  .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+  }
+  
+  .rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+  }
+  
+  .rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+  }
+  
+  .rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+  }
+  
+  .rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+  }
+  
+  .rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+  }
+  
+  .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+  }
+  
+  .rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+  }
+  
+  .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+  }
+  
+  .rounded-social-buttons .social-button.instagram {
+  background: #125688;
+  }
+  
+  .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+  }
+  h3:hover{
+  color:rgb(218, 89, 15);
+  }
+  
+  /* footer section close */
+
+
+
+
+
+
+
+  /* login section */
+.container {
+    margin-left: 35%;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 400px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+}
+
+.container .login-text {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.container .login-social {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    margin-bottom: 25px;
+}
+
+.container .login-social a {
+    padding: 12px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFF;
+    transition: .3s;
+}
+
+.container .login-social a i {
+    margin-right: 5px;
+}
+
+.container .login-social a.facebook {
+    background: #4267B2;
+}
+
+.container .login-social a.twitter {
+    background: #1DA1F2;
+}
+
+.container .login-social a.google-plus {
+    background: #db4a39;
+}
+
+.container .login-social a.linkedin {
+    background: #0e76a8;
+}
+
+.container .login-social a.facebook:hover {
+    background: #3d5fa3;
+}
+
+.container .login-social a.twitter:hover {
+    background: #1991db;
+}
+
+.container .login-social a.google-plus:hover {
+    background: #ca4334;
+}
+
+.container .login-social a.linkedin:hover {
+    background: #0b5c81;
+}
+
+.container .login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.container .login-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.container .login-email .input-group input:focus, .container .login-email .input-group input:valid {
+    border-color: #a29bfe;
+}
+
+.container .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #a29bfe;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #6c5ce7;
+}
+
+.login-register-text {
+    color: #111;
+    font-weight: 600;
+}
+
+.login-register-text a {
+    text-decoration: none;
+    color: #6c5ce7;
+}
+
+@media (max-width: 430px) {
+    .container {
+        width: 300px;
+    }
+    .container .login-social {
+        display: block;
+    }
+    .container .login-social a {
+        display: block;
+    }
+}
+
+  
+  /* login section ends  */
